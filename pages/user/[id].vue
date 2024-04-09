@@ -12,7 +12,6 @@ import { useAsyncData } from 'nuxt/app';
 import { ref } from 'vue';
 import {
   renderUser,
-
 } from '~/utils/utils.ts';
 
 const route = useRoute();
