@@ -1,0 +1,49 @@
+/* main.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: #ffebcd; /* BlanchedAlmond */
+  padding: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+nav {
+  background-color: #f0fff0; /* HoneyDew */
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+main {
+  background-color: #f0f8ff; /* AliceBlue */
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+section {
+  background-color: #e6e6fa; /* Lavender */
+  padding: 15px;
+  margin: 5px;
+}
+
+article {
+  background-color: #e0ffff; /* LightCyan */
+  padding: 15px;
+  margin: 5px;
+}
+
+aside {
+  background-color: #fffacd; /* LemonChiffon */
+  padding: 10px;
+  margin: 5px;
+}
+
+footer {
+  background-color: #ffe4e1; /* MistyRose */
+  padding: 10px;
+  margin-top: 15px;
+}
