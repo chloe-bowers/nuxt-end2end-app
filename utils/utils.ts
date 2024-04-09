@@ -1,3 +1,4 @@
+//render final instance of key, value pair
 export const renderUser = (user: Record<string, string>): string => {
   return Object.entries(user)
     .map(([key, value]) => {
@@ -44,10 +45,10 @@ export const renderNestedObjects = (
 
 //Generate label from key, seperate camelCase and split to human readable
 export const generateLabel = (key: string): string => {
-  return key
-    .split('.')
-    .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
-    .join(' ');
+  const camelCaseRegex = /([a-z])([A-Z])/g; //fiund camel case regex
+  const pascalCaseWithSpace = key.replace(camelCaseRegex, '$1 $2'); //convert camelCase to pascal
+
+  return pascalCaseWithSpace.charAt(0).toUpperCase() + pascalCaseWithSpace.slice(1);
 };
 
 //do not generate value if object, continue through nest
