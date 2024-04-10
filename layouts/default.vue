@@ -1,8 +1,10 @@
 <template>
-  <AwesomeHeader />
-  <AwesomeNavbar />
-  <main>
-    <slot />
-  </main>
-  <AwesomeFooter />
+  <div class="layout">
+    <AwesomeHeader />
+    <AwesomeNavbar />
+    <main>
+      <slot />
+    </main>
+    <AwesomeFooter />
+  </div>
 </template>

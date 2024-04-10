@@ -4,6 +4,12 @@ body {
   margin: 0;
 }
 
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the layout takes at least the full height of the viewport */
+}
+
 header {
   background-color: #ffebcd; /* BlanchedAlmond */
   padding: 10px;
@@ -22,6 +28,7 @@ main {
   padding: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
+  flex: 1;
 }
 
 section {
@@ -46,4 +53,5 @@ footer {
   background-color: #ffe4e1; /* MistyRose */
   padding: 10px;
   margin-top: 15px;
+  flex-shrink: 0;
 }
