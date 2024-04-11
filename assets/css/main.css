@@ -2,16 +2,17 @@
 .layout {
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* Ensure the layout takes at least the full height of the viewport */
+  min-height: 100vh;
 }
 .nav-menu {
-  background-color: white;
+  background-color: #f0fff0;
 }
 .nav-content {
   display: flex;
   justify-content: space-between;
   padding: 10px 30px;
   align-items: center;
+  height: 50px;
 }
 .nav-items {
   display: flex;
@@ -29,25 +30,22 @@ i {
 }
 
 .content {
-  display: flex; /* Use flexbox for the content */
-  flex: 1; /* Ensure the content area takes up remaining space */
+  display: flex;
+  flex: 1;
 }
 
 body {
   font-family: Arial, sans-serif;
   margin: 0;
+  color: rgb(38, 39, 39);
 }
 
 main {
-  background-color: #f0f8ff; /* AliceBlue */
-  padding: 20px;
-  margin-top: 10px;
-  margin-bottom: 10px;
   flex: 1;
+  background-color: #f0f8ff; /* AliceBlue */
 }
 
 section {
-  background-color: #e6e6fa; /* Lavender */
   padding: 15px;
   margin: 5px;
 }
@@ -62,7 +60,12 @@ aside {
   background-color: #fffacd; /* LemonChiffon */
   padding: 10px;
   margin: 5px;
-  width: 250px; /* Adjust width as needed */
+  width: 250px;
+}
+
+.sidebar-content {
+  position: sticky;
+   top: 10px;
 }
 
 footer {

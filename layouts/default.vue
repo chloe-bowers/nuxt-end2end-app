@@ -2,9 +2,8 @@
   <div class="layout">
     <AwesomeNavbar />
     <div class="content">
-      <div class="sidebar">
-        <AwesomeSidebar />
-      </div>
+      <AwesomeSidebar />
+
       <main>
         <slot />
       </main>
