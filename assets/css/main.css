@@ -51,21 +51,20 @@ section {
 }
 
 article {
-  background-color: #e0ffff; /* LightCyan */
   padding: 15px;
   margin: 5px;
+  height: 100%;
 }
 
 aside {
   background-color: #fffacd; /* LemonChiffon */
   padding: 10px;
-  margin: 5px;
   width: 250px;
 }
 
 .sidebar-content {
   position: sticky;
-   top: 10px;
+  top: 10px;
 }
 
 footer {
