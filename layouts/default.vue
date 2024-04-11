@@ -1,10 +1,14 @@
 <template>
   <div class="layout">
-    <AwesomeHeader />
     <AwesomeNavbar />
-    <main>
-      <slot />
-    </main>
+    <div class="content">
+      <div class="sidebar">
+        <AwesomeSidebar />
+      </div>
+      <main>
+        <slot />
+      </main>
+    </div>
     <AwesomeFooter />
   </div>
 </template>

@@ -1,26 +1,41 @@
 /* main.css */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-}
-
 .layout {
   display: flex;
   flex-direction: column;
   min-height: 100vh; /* Ensure the layout takes at least the full height of the viewport */
 }
-
-header {
-  background-color: #ffebcd; /* BlanchedAlmond */
-  padding: 10px;
-  margin-bottom: 15px;
-  text-align: center;
+.nav-menu {
+  background-color: white;
+}
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+  align-items: center;
+}
+.nav-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  li {
+    padding: 0 10px;
+  }
+}
+i {
+  display: none;
 }
 
-nav {
-  background-color: #f0fff0; /* HoneyDew */
-  padding: 10px;
-  margin-bottom: 15px;
+.content {
+  display: flex; /* Use flexbox for the content */
+  flex: 1; /* Ensure the content area takes up remaining space */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
 }
 
 main {
@@ -47,6 +62,7 @@ aside {
   background-color: #fffacd; /* LemonChiffon */
   padding: 10px;
   margin: 5px;
+  width: 250px; /* Adjust width as needed */
 }
 
 footer {
